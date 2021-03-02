@@ -1,6 +1,8 @@
+import "./contact.css";
+
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <h1>my Contact</h1>
     </div>
   );
