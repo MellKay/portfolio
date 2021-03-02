@@ -11,22 +11,22 @@ function NavBar() {
       <ul className="navList">
         <li>
           <Link to="/">
-            <img src={home} className="icon" />
+            <img src={home} alt="" className="icon" />
           </Link>
         </li>
         <li>
           <Link to="/about">
-            <img src={about} className="icon" />
+            <img src={about} alt="" className="icon" />
           </Link>
         </li>
         <li>
           <Link to="/projects">
-            <img src={projects} className="icon" />
+            <img src={projects} alt="" className="icon" />
           </Link>
         </li>
         <li>
           <Link to="/contact">
-            <img src={contact} className="icon" />
+            <img src={contact} alt="" className="icon" />
           </Link>
         </li>
       </ul>
