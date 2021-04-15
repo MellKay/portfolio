@@ -8,7 +8,7 @@ import EmailLogo from './EmailLogo'
 function Contact() {
   return (
     <div className="contact">
-    <ContactLogo/>
+    <div className="contactlogo"><ContactLogo/></div>
     <div className="logos">
     <a href="https://www.linkedin.com/in/mellrusson/" target="_blank"><div className="linkedin"><LinkedInLogo/></div></a>
     <a href="https://twitter.com/MellKayR" target="_blank"><div className="twitter"><TwitterLogo/></div></a>

@@ -2,11 +2,16 @@
   width: 75%;
   float: right;
   padding-left: 10px;
-  margin-left: -40px;
+  
 }
 
 .logos {
   display: flex;
   margin-top: 25%;
   justify-content: space-around;
+  margin-left: -120px;
+}
+
+.contactlogo {
+  margin-left: -100px;
 }
