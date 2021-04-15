@@ -6,8 +6,8 @@ import self from "../../assets/self.jpg"
 function About() {
   return (
     <div className="about">
-    <img className="self" src={self} alt="me" />
-      <h1 className="text">About Me</h1>
+    <h1 className="text">About Me...</h1>
+    <img className="self" src={self} alt="me" />      
       <p className="text">Blah blah blah Mell is awesome blah blah blah</p>
     </div>
   );
