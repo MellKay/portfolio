@@ -12,6 +12,16 @@
   margin-left: -120px;
 }
 
+@media only screen and (max-width: 900px) {
+  .logos {
+ display: inline-block;
+ margin-left: 50%;
+  }
+  .contactlogo {
+    text-align: center;
+  }
+}
+
 .contactlogo {
   margin-left: -100px;
 }
