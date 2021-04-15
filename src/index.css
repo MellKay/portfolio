@@ -9,7 +9,27 @@ body {
   color: #59c7f6;
 }
 
+h1 {
+  font-family: "Pacifico", cursive;
+  text-shadow: 2px 2px 13px #59c7f6;
+  /* transform: rotate(-45deg); */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*variables*/
+:root {
+  --blue1: #59c7f6;
+  --blue2: #1d7ea7;
+  --green1: #4cff2f;
+  --green2: #178c04;
+  --pink1: #fd4a8a;
+  --pink2: #ab2354;
+  --yellow1: #fafe4b;
+  --yellow2: #a0a315;
+  --purple1: #cb0aeb;
+  --purple2: #720285;
 }

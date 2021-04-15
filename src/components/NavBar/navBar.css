@@ -19,6 +19,13 @@
   width: 60%;
   max-width: 80px;
   margin-bottom: 20%;
-  /* box-shadow: 2px 2px 5px #59c7f6; */
-  /* idk how to do the neon shadow thing ugh */
+  filter: drop-shadow(0px 0px 8px #59c7f6);
+
+  /* Alexa Berry is smarter than the average bear */
+}
+
+.icon:active,
+:hover {
+  filter: drop-shadow(0px 0px 8px #1d7ea7);
+  /*No idea why active/hover isn't working but should be ^this^ colour when it does...*/
 }
