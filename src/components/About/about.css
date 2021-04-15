@@ -3,3 +3,14 @@
   display: inline-block;
   padding-left: 10px;
 }
+
+.self {
+  border-radius: 100%;
+  max-width: 8vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  text-align: center;
+}
