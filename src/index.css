@@ -10,6 +10,8 @@ body {
 }
 
 h1 {
+  font-size: 3em;
+  max-width: 8em;
   font-family: "Pacifico", cursive;
   text-shadow: 2px 2px 13px #59c7f6;
   transform: rotate(-10deg);
