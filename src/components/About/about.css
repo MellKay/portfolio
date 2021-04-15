@@ -6,12 +6,14 @@
 
 .self {
   border-radius: 100%;
-  max-width: 8vw;
+  max-width: 10vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 4vw;
 }
 
 p {
   text-align: center;
+  padding: 3vw;
 }
