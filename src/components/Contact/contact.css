@@ -1,5 +1,27 @@
 .contact {
   width: 75%;
-  display: inline-block;
+  float: right;
   padding-left: 10px;
+  
+}
+
+.logos {
+  display: flex;
+  margin-top: 25%;
+  justify-content: space-around;
+  margin-left: -120px;
+}
+
+@media only screen and (max-width: 900px) {
+  .logos {
+ display: inline-block;
+ margin-left: 50%;
+  }
+  .contactlogo {
+    text-align: center;
+  }
+}
+
+.contactlogo {
+  margin-left: -100px;
 }
