@@ -3,3 +3,17 @@
   display: inline-block;
   padding-left: 10px;
 }
+
+.self {
+  border-radius: 100%;
+  max-width: 10vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4vw;
+}
+
+p {
+  text-align: center;
+  padding: 2vw;
+}
