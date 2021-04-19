@@ -3,3 +3,11 @@
   display: inline-block;
   padding-left: 10px;
 }
+
+.grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
