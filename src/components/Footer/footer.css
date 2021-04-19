@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+h5 {
+  padding-right: 0.3em;
+}
+
+.penguin {
+  max-width: 1.5em;
+}
