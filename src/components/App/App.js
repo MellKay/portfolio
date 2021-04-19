@@ -5,9 +5,10 @@ import Home from "../Home";
 import Contact from "../Contact";
 import NavBar from "../NavBar";
 import About from "../About";
+import Footer from "../Footer"
 
 function App() {
-  return (
+  return (<>
     <Router>
       <NavBar />
 
@@ -26,6 +27,10 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    <Footer/>
+    </>
+
+  
   );
 }
 
