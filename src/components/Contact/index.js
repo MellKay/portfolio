@@ -1,21 +1,19 @@
 import "./contact.css";
-import LinkedInLogo from './LinkedInLogo'
-import TwitterLogo from './TwitterLogo'
-import GithubLogo from './GithubLogo'
-import EmailLogo from './EmailLogo' 
+import LinkedInLogo from '../../assets/linkedin.svg'
+import TwitterLogo from '../../assets/twitter.svg'
+import GithubLogo from '../../assets/github.svg'
+import EmailLogo from '../../assets/email.svg' 
 
 function Contact() {
   return (
     <div className="contact">
     <h1 className="textContact">Contact</h1>
-
     <div className="logos">
-    <a href="https://www.linkedin.com/in/mellrusson/" target="_blank"><div className="linkedin"><LinkedInLogo/></div></a>
-    <a href="https://twitter.com/MellKayR" target="_blank"><div className="twitter"><TwitterLogo/></div></a>
-    <a href="https://github.com/MellKay" target="_blank"><div className="github"><GithubLogo/></div></a>
-    <a href="mailto:mellkayrusson@gmail.com" target="_blank"><div className="email"><EmailLogo/></div></a>
+    <a href="https://www.linkedin.com/in/mellrusson/" target="_blank"><img src={LinkedInLogo}/></a>
+    <a href="https://twitter.com/MellKayR" target="_blank"><img src={TwitterLogo} /></a>
+    <a href="https://github.com/MellKay" target="_blank"><img src={GithubLogo}/></a>
+    <a href="mailto:mellkayrusson@gmail.com" target="_blank"><img src={EmailLogo}/></a>
     </div>
-
     </div>
   );
 }
