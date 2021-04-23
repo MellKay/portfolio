@@ -50,7 +50,6 @@ function Projects() {
         <div className="grid-container">
           {projects.map((item) => (
             <div className="grid-item">
-              {/* on click of this image, setCurrentProject to be whatever the related project is */}
               <img
                 src={item.img}
                 className="thumbnail"
