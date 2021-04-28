@@ -9,10 +9,10 @@ function Contact() {
     <div className="contact">
     <h1 className="textContact">Contact</h1>
     <div className="logos">
-    <a href="https://www.linkedin.com/in/mellrusson/" target="_blank"><img src={LinkedInLogo}/></a>
-    <a href="https://twitter.com/MellKayR" target="_blank"><img src={TwitterLogo} /></a>
-    <a href="https://github.com/MellKay" target="_blank"><img src={GithubLogo}/></a>
-    <a href="mailto:mellkayrusson@gmail.com" target="_blank"><img src={EmailLogo}/></a>
+    <a href="https://www.linkedin.com/in/mellrusson/" target="_blank" rel="noreferrer"><img src={LinkedInLogo} alt="" /></a>
+    <a href="https://twitter.com/MellKayR" target="_blank" rel="noreferrer"><img src={TwitterLogo} alt="" /></a>
+    <a href="https://github.com/MellKay" target="_blank" rel="noreferrer"><img src={GithubLogo} alt="" /></a>
+    <a href="mailto:mellkayrusson@gmail.com" target="_blank" rel="noreferrer"><img src={EmailLogo} alt="" /></a>
     </div>
     </div>
   );

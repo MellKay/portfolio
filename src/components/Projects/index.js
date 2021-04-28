@@ -52,7 +52,7 @@ function Projects() {
             <div className="grid-item">
               <img
                 src={item.img}
-                className="thumbnail"
+                className="thumbnail" alt=""
                 onClick={() => setCurrentProject(projects[item.id])}
               />
             </div>
@@ -60,7 +60,7 @@ function Projects() {
         </div>
         <div className="project-display">
           <h2>{currentProject.title}</h2>
-          <img src={currentProject.img} className="display-img" />
+          <img src={currentProject.img} className="display-img" alt="" />
           <p>{currentProject.description}</p>
           {currentProject.liveSite && (
             <a href={currentProject.liveSite}>Live Hosted Site </a>
