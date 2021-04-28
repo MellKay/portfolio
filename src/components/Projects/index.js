@@ -45,7 +45,7 @@ function Projects() {
   const [currentProject, setCurrentProject] = useState(projects[0]);
   return (
     <div className="projects">
-      <h1>my projects</h1>
+      <h1>My Projects</h1>
       <div className="container">
         <div className="grid-container">
           {projects.map((item) => (

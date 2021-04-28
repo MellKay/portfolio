@@ -7,7 +7,7 @@ import EmailLogo from '../../assets/email.svg'
 function Contact() {
   return (
     <div className="contact">
-    <h1 className="textContact">Contact</h1>
+    <h1 className="textContact">Contact Me</h1>
     <div className="logos">
     <a href="https://www.linkedin.com/in/mellrusson/" target="_blank" rel="noreferrer"><img src={LinkedInLogo} alt="" /></a>
     <a href="https://twitter.com/MellKayR" target="_blank" rel="noreferrer"><img src={TwitterLogo} alt="" /></a>

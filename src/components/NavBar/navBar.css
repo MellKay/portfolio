@@ -20,12 +20,9 @@
   max-width: 80px;
   margin-bottom: 20%;
   filter: drop-shadow(0px 0px 8px #59c7f6);
-
-  /* Alexa Berry is smarter than the average bear */
 }
 
-/* .icon:active,
-:hover {
-  filter: drop-shadow(0px 0px 8px #1d7ea7);
+.icon:hover {
+  color: #1d7ea7;
 }
-  No idea why active/hover isn't working but should be ^this^ colour when it does...*/
+/*Currently hover doesn't work because SVGs are the lighter colour already - How do we get them to change??*/

@@ -4,6 +4,10 @@
   padding-left: 10px;
 }
 
+a {
+  color: inherit;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -20,7 +24,8 @@
 
 .grid-item,
 .project-display {
-  border: 2px grey solid;
+  border: 2px #59c7f6 solid;
+  border-radius: 5px;
   text-align: center;
 }
 

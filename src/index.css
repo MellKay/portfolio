@@ -6,14 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  color: #59c7f6;
+  color: var(--blue1);
 }
 
 h1 {
   font-size: 3em;
   max-width: 8em;
   font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px 13px #59c7f6;
+  text-shadow: 2px 2px 13px var(--blue1);
   transform: rotate(-10deg);
   padding-left: 2vw;
 }
